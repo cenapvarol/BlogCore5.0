@@ -1,0 +1,78 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Blog>
+
+@{
+    ViewData["Title"] = "BlogDetails";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+<body>
+    <section class="banner-bottom">
+        <!--/blog-->
+        <div class="container">
+            <div class="row">
+                <!--left-->
+                <div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
+                    <!-- #region BlogDetails -->
+                    @foreach (var item in Model)
+                    {
+                        <div class="blog-grid-top">
+                            <div class="b-grid-top">
+                                <div class="blog_info_left_grid">
+                                    <a href="single.html">
+                                        <img src="~/CoreBlogTema/images/b1.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-info-middle">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="far fa-calendar-alt"></i> @item.BlogCreateDate.ToString("MMMM .yyy")
+                                            </a>
+                                        </li>
+                                        <li class="mx-2">
+                                            <a href="#">
+                                                <i class="far fa-thumbs-up"></i> 0 Beğeni
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="far fa-comment"></i> 0 Yorum
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <h3>
+                                @item.BlogTitle
+                            </h3>
+                            <p>
+                                @item.BlogContent
+                            </p>
+                            <a href="/Blog/Index" class="btn btn-primary read-m">Blog Listesi</a>
+                        </div>
+                    }
+
+
+                    <!-- #endregion -->
+                    @*@await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
+
+                    @await Component.InvokeAsync("CommentListByBlog", new { ViewBag.id })
+                    @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
+                    @await Component.InvokeAsync("WriterLastBlog")
+
+                </div>
+
+
+                <!--//left-->
+                <!--right-->
+                <!--//right-->
+            </div>
+        </div>
+    </section>
+    <!--//main-->
+</body>
+
+</html>

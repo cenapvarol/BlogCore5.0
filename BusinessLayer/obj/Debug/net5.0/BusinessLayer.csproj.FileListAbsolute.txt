@@ -1,0 +1,17 @@
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb

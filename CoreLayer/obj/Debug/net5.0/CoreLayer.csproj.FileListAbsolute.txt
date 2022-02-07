@@ -1,0 +1,12 @@
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
