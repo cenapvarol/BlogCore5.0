@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Cenap\\.nuget\\packages\\": {}
+    "C:\\Users\\cenap.varol\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreLayer\\CoreLayer.csproj",
-      "packagesPath": "C:\\Users\\Cenap\\.nuget\\packages\\",
-      "outputPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreLayer\\obj\\",
+      "projectPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreLayer\\CoreLayer.csproj",
+      "packagesPath": "C:\\Users\\cenap.varol\\.nuget\\packages\\",
+      "outputPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Cenap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cenap.varol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +32,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\cenap.varol\\AppData\\Local\\Esri\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

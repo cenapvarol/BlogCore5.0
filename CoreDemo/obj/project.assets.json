@@ -7306,19 +7306,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cenap\\.nuget\\packages\\": {}
+    "C:\\Users\\cenap.varol\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreDemo\\CoreDemo.csproj",
+      "projectUniqueName": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreDemo\\CoreDemo.csproj",
       "projectName": "CoreDemo",
-      "projectPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreDemo\\CoreDemo.csproj",
-      "packagesPath": "C:\\Users\\Cenap\\.nuget\\packages\\",
-      "outputPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreDemo\\obj\\",
+      "projectPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreDemo\\CoreDemo.csproj",
+      "packagesPath": "C:\\Users\\cenap.varol\\.nuget\\packages\\",
+      "outputPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreDemo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Cenap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cenap.varol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7326,20 +7330,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\cenap.varol\\AppData\\Local\\Esri\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\BusinessLayer\\BusinessLayer.csproj"
+            "D:\\EgitimProjeleri\\AspNetCore5.0\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\EgitimProjeleri\\AspNetCore5.0\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\EntityLayer\\EntityLayer.csproj"
+            "D:\\EgitimProjeleri\\AspNetCore5.0\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "D:\\EgitimProjeleri\\AspNetCore5.0\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -7405,7 +7410,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
