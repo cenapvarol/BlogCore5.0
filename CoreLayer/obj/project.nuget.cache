@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jB1THju10t8NEmsDpRsLylrjEJWzVqqJ9JFXgj7P/P+sQ30diGDO/Ik9q8WwyGTgvvuRYWG9ZemDWKAklyZdJA==",
+  "dgSpecHash": "+Hi7ujdkAkNOPpA5BszuaFLlTRR5KrHDE8g/QQ5QnyNqxRpAJ63SkuOxif7i0h7Y8TTkI0gChgejKY4lnF7u6Q==",
   "success": true,
-  "projectFilePath": "D:\\EgitimProjeleri\\AspNetCore5.0\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "D:\\EgitimProjeleri\\AspNetCore5Egitim\\CoreDemo5\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
