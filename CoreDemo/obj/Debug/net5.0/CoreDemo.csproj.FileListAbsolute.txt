@@ -530,3 +530,9 @@ D:\EgitimProjeleri\AspNetCore5.0\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Wr
 D:\EgitimProjeleri\AspNetCore5.0\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterFooterPartial.cshtml.g.cs
 D:\EgitimProjeleri\AspNetCore5.0\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
 D:\EgitimProjeleri\AspNetCore5.0\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterFooterPartial.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterNavbarPartial.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs

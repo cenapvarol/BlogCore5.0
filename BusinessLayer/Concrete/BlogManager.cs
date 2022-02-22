@@ -18,25 +18,25 @@ namespace BusinessLayer.Concrete
             _blogDal = blogDal;
         }
 
-        public void BlogAdd(Blog blog)
-        {
-            _blogDal.Insert(blog);
-        }
+        //public void BlogAdd(Blog blog)
+        //{
+        //    _blogDal.Insert(blog);
+        //}
 
-        public void BlogDelete(Blog blog)
-        {
-            _blogDal.Delete(blog);
-        }
+        //public void BlogDelete(Blog blog)
+        //{
+        //    _blogDal.Delete(blog);
+        //}
 
-        public void BlogUpdate(Blog blog)
-        {
-            _blogDal.Update(blog);
-        }
+        //public void BlogUpdate(Blog blog)
+        //{
+        //    _blogDal.Update(blog);
+        //}
 
-        public List<Blog> GetAll()
-        {
-           return  _blogDal.GetListAll();
-        }
+        //public List<Blog> GetAll()
+        //{
+        //   return  _blogDal.GetListAll();
+        //}
 
         public List<Blog> GetLast3Blog()
         {
@@ -48,18 +48,48 @@ namespace BusinessLayer.Concrete
             return _blogDal.GetListWithCategory();
         }
 
-        public Blog GetById(int id)
+        public List<Blog> GetListWithCategoryByWriterBm(int id)
         {
-           return _blogDal.GetById(id);
+            return _blogDal.GetListWithCategoryByWriter(id);
         }
-        public List<Blog> GetBlogID(int id)
-        {
-            return _blogDal.GetListAll(x => x.BlogID == id);
-        }
+
+        //public Blog GetById(int id)
+        //{
+        //   return _blogDal.GetById(id);
+        //}
+        //public List<Blog> GetBlogID(int id)
+        //{
+        //    return _blogDal.GetListAll(x => x.BlogID == id);
+        //}
 
         public List<Blog> GetBlogListByWriter(int id)
         {
             return _blogDal.GetListAll(x => x.WriteID == id);
+        }
+
+        public void TAdd(Blog t)
+        {
+            _blogDal.Insert(t);
+        }
+
+        public void TDelete(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TUpdate(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Blog GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Blog> GetAll()
+        {
+            throw new NotImplementedException();
         }
     }
 }

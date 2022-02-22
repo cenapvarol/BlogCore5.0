@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\cenap.varol\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\cenap.varol\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\Cenap\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Cenap\\.nuget\\packages"
     ]
   }
 }
