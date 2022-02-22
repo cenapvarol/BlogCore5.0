@@ -51,8 +51,8 @@ namespace CoreDemo.Controllers
             List<SelectListItem> categoryvalues = (from x in cm.GetAll()
                                                    select new SelectListItem
                                                    {
-                                                       Text=x.CategoryName,
-                                                       Value=x.CategoryID.ToString()
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
                                                    }).ToList();
             ViewBag.cv = categoryvalues;
             return View();
@@ -81,6 +81,16 @@ namespace CoreDemo.Controllers
 
 
             return View();
+        }
+        public IActionResult BlogDelete(int id)
+        {
+            var values = bm.GetById(id);
+
+            //bm.TDelete(values);
+            values.BlogStatus = false;
+            bm.TUpdate(values);
+
+            return RedirectToAction("BlogListByWriter", "Blog");
         }
     }
 }

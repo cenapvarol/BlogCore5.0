@@ -74,17 +74,17 @@ namespace BusinessLayer.Concrete
 
         public void TDelete(Blog t)
         {
-            throw new NotImplementedException();
+            _blogDal.Delete(t);
         }
 
         public void TUpdate(Blog t)
         {
-            throw new NotImplementedException();
+            _blogDal.Update(t);
         }
 
         public Blog GetById(int id)
         {
-            throw new NotImplementedException();
+            return _blogDal.GetById(id);
         }
 
         public List<Blog> GetAll()

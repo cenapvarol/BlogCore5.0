@@ -5,6 +5,8 @@
     Layout = "~/Views/Shared/_WriterLayout.cshtml";
 }
 
+
+
 <h1>Yazarın Blogları</h1>
 
 <table class="table table-bordered">
@@ -36,7 +38,7 @@
 
             }
                 </td>
-            <td><a href="#" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Blog/BlogDelete/@item.BlogID" id="blogSil" class="btn btn-danger">Sil</a></td>
             <td><a href="#" class="btn btn-warning">Düzenle</a></td>
         </tr>
 
@@ -45,4 +47,6 @@
 </table>
 
 <a href="/Blog/BlogAdd" class="btn btn-primary">Yeni Blog Oluştur</a>
+
+
 
