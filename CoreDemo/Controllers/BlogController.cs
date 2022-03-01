@@ -16,6 +16,7 @@ namespace CoreDemo.Controllers
     public class BlogController : Controller
     {
         BlogManager bm = new BlogManager(new EfBlogRepository());
+        CategoryManager cm = new CategoryManager(new EfCategoryRepository());
         [AllowAnonymous]
         public IActionResult Index()
         {
@@ -26,15 +27,15 @@ namespace CoreDemo.Controllers
         //public IActionResult BlogDetails(int id)
         //{
         //    ViewBag.id = id;
-        //    var values = bm.GetBlogID(id);
+        //    var values = bm.GetById(id);
         //    return View(values);
 
         //}
         public IActionResult BlogListDetails(int id)
         {
             ViewBag.id = id;
-            //var values = bm.GetBlogID(id);
-            var values = bm.GetById(id);
+            var values = bm.GetBlogID(id);
+            
 
             return View(values);
 
@@ -47,7 +48,7 @@ namespace CoreDemo.Controllers
         [HttpGet]
         public IActionResult BlogAdd()
         {
-            CategoryManager cm = new CategoryManager(new EfCategoryRepository());
+           
             List<SelectListItem> categoryvalues = (from x in cm.GetAll()
                                                    select new SelectListItem
                                                    {
@@ -91,6 +92,27 @@ namespace CoreDemo.Controllers
             bm.TUpdate(values);
 
             return RedirectToAction("BlogListByWriter", "Blog");
+        }
+        [HttpGet]
+        public IActionResult EditBlog(int id)
+        {
+            List<SelectListItem> categoryvalues = (from x in cm.GetAll()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
+                                                   }).ToList();
+            ViewBag.cv = categoryvalues;
+            var values = bm.GetById(id);
+            return View(values);
+        }
+        [HttpPost]
+        public IActionResult EditBlog(Blog p)
+        {
+            p.BlogStatus = true;
+            p.WriteID = p.WriteID;
+            bm.TUpdate(p);
+            return RedirectToAction("BlogListByWriter","Blog");
         }
     }
 }

@@ -537,3 +537,8 @@ D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\V
 D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
 D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
 D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogDelete.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\EditBlog.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogListDashboard\Default.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryListDashboard\Default.cshtml.g.cs
+D:\EgitimProjeleri\AspNetCore5Egitim\CoreDemo5\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterAboutOnDahsboard\Default.cshtml.g.cs

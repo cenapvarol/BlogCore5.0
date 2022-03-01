@@ -23,6 +23,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Writer> Writers { get; set; }
         public DbSet<NewsLetter> NewsLetters { get; set; }
+        public DbSet<BlogRayting> blogRaytings { get; set; }
     }
 
     //Migiration işlemi yapılma aşaması   Microsoft Visual Studio uygulmasında üst kısımda bulunan View sekmesine tıklıyoruz karşımıza gelen ekranda  Other Windows sekmesinde Package Manager Console'a
