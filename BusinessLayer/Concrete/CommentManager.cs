@@ -11,7 +11,12 @@ namespace BusinessLayer.Concrete
 {
     public class CommentManager : ICommentService
     {
+
+        //Generate contructor oluşturmadan önce Aşağıdaki gibi interface implement ediyoruz 
+
         ICommentDal _commentDal;
+
+        //Generate contructor oluşturmak için  yapılan işlem yukarıda bulunan   CommentManager  üstüne gelerek  ctrl .  ya basıyoruz karşımıza gelen ekranda Generate contructor basıyoruz.
 
         public CommentManager(ICommentDal commentDal)
         {

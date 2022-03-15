@@ -1,12 +1,9 @@
-﻿using BusinessLayer.ValidationRules;
-using DataAccessLayer.Concrete;
+﻿using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
-using FluentValidation.Results;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -56,7 +53,7 @@ namespace CoreDemo.Controllers
                 ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
                 await HttpContext.SignInAsync(principal);
 
-                return RedirectToAction("Index", "Blog");
+                return RedirectToAction("Index","Dashboard");
 
             }
             else

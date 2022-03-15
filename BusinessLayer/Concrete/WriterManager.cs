@@ -11,8 +11,11 @@ namespace BusinessLayer.Concrete
 {
     public class WriterManager : IWriterService
     {
+        //Generate contructor oluşturmadan önce Aşağıdaki gibi interface implement ediyoruz 
         IWriterDal _writerdal;
 
+
+        //Generate contructor oluşturmak için  yapılan işlem yukarıda bulunan   WriterManager  üstüne gelerek  ctrl .  ya basıyoruz karşımıza gelen ekranda Generate contructor basıyoruz.
         public WriterManager(IWriterDal writerdal)
         {
             _writerdal = writerdal;
@@ -25,7 +28,7 @@ namespace BusinessLayer.Concrete
 
         public Writer GetById(int id)
         {
-            throw new NotImplementedException();
+            return _writerdal.GetById(id);
         }
 
         public List<Writer> GetWriterById(int id)
@@ -46,7 +49,7 @@ namespace BusinessLayer.Concrete
 
         public void TUpdate(Writer t)
         {
-            throw new NotImplementedException();
+            _writerdal.Update(t);
         }
 
         public void WriterDelete(Writer writer)

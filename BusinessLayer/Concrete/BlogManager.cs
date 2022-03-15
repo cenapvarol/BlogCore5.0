@@ -11,7 +11,14 @@ namespace BusinessLayer.Concrete
 {
     public class BlogManager : IBlogService
     {
+        //Generate contructor oluşturmadan önce Aşağıdaki gibi interface implement ediyoruz 
+
         IBlogDal _blogDal;
+
+        //Generate contructor oluşturmak için  yapılan işlem yukarıda bulunan   BlogManager  üstüne gelerek  ctrl .  ya basıyoruz karşımıza gelen ekranda Generate contructor basıyoruz.
+
+
+
 
         public BlogManager(IBlogDal blogDal)
         {

@@ -12,7 +12,12 @@ namespace BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
+        //Generate contructor oluşturmadan önce Aşağıdaki gibi interface implement ediyoruz 
+
         ICategoryDal _categoryDal;
+
+        //Generate contructor oluşturmak için  yapılan işlem yukarıda bulunan   CategoryManager  üstüne gelerek  ctrl .  ya basıyoruz karşımıza gelen ekranda Generate contructor basıyoruz.
+
 
         public CategoryManager(ICategoryDal categoryDal)
         {
@@ -21,7 +26,7 @@ namespace BusinessLayer.Concrete
 
         public List<Category> GetAll()
         {
-          return _categoryDal.GetListAll();
+            return _categoryDal.GetListAll();
         }
 
         public Category GetById(int id)

@@ -11,8 +11,11 @@ namespace BusinessLayer.Concrete
 {
     public class NewsLetterManager : INewsLetterService
     {
+        //Generate contructor oluşturmadan önce Aşağıdaki gibi interface implement ediyoruz 
 
         INewsLetterDal _newsLetterDal;
+
+        //Generate contructor oluşturmak için  yapılan işlem yukarıda bulunan   WriterManager  üstüne gelerek  ctrl .  ya basıyoruz karşımıza gelen ekranda Generate contructor basıyoruz.
 
         public NewsLetterManager(INewsLetterDal newsLetterDal)
         {

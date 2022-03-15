@@ -11,7 +11,11 @@ namespace BusinessLayer.Concrete
 {
     public class AboutManager : IAboutService
     {
+        //Generate contructor oluşturmadan önce Aşağıdaki gibi interface implement ediyoruz 
+
         IAboutDal _aboutDal;
+
+        //Generate contructor oluşturmak için  yapılan işlem yukarıda bulunan   AboutManager  üstüne gelerek  ctrl .  ya basıyoruz karşımıza gelen ekranda Generate contructor basıyoruz.
 
         public AboutManager(IAboutDal aboutDal)
         {
@@ -25,7 +29,7 @@ namespace BusinessLayer.Concrete
 
         public List<About> GetAllAboutList()
         {
-           return  _aboutDal.GetListAll();
+            return _aboutDal.GetListAll();
         }
 
         public About GetById(int id)
